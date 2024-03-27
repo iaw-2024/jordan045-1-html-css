@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>HTML-CSS</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#lager">Lager</a></li>
+            <li><a href="#pale_ale">Pale Ale</a></li>
+            <li><a href="#ipa">IPA</a></li>
+            <li><a href="#stout">Stout</a></li>
+            <li><a href="#porter">Porter</a></li>
+            <li><a href="#wheat">Trigo</a></li>
+            <li><a href="#lambic">Lambic</a></li>
+            <li><a href="#saison">Saison</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>El sitio de la birra</h1>
+
+        <h2>La bebida oficial de los viernes</h2>
+        <div id="intro">
+            <p class="intro">
+                La cerveza, una bebida ancestral con miles de años de historia, se elabora con cereales,
+                agua, lúpulo y levadura. Con una gran variedad de tipos y sabores, la cerveza puede aportar
+                beneficios para la salud como fuente de vitaminas y minerales, antioxidantes, y por su efecto
+                positivo en la salud cardiovascular y ósea. Siempre con moderación, la cerveza puede ser una
+                bebida placentera y saludable.
+            </p>
+            <img src="./src/beer.jpg" alt="cerveza" id="beer" class="intro">
+        </div>
+        <h2>Estilos de cerveza</h2>
+        <ul class="cards">
+            <li class="card">
+                <h3 id="lager" class="title">Lager</h3>
+                <div class="divisor"></div>
+                <ul>
+                    <li>Color: Amarillo claro</li>
+                    <li>Sabor: Ligero, refrescante</li>
+                    <li>Amargor (IBU): Bajo (10-20)</li>
+                    <li>Alcohol (ABV): 4-6%</li>
+                    <li>Ejemplos: Pilsner, Helles</li>
+                </ul>
+            </li>
+            <li class="card">
+                <h3 id="pale_ale" class="title">Pale Ale</h3>
+                <div class="divisor"></div>
+
+                <ul>
+                    <li>Color: Dorado</li>
+                    <li>Sabor: Afrutado, cítrico</li>
+                    <li>Amargor (IBU): Moderado (20-40)</li>
+                    <li>Alcohol (ABV): 4-6%</li>
+                    <li>Ejemplos: American Pale Ale, India Pale Ale</li>
+                </ul>
+            </li>
+
+            <li class="card">
+                <h3 id="ipa" class="title">IPA</h3>
+                <div class="divisor"></div>
+
+                <ul>
+                    <li>Color: Dorado a ámbar</li>
+                    <li>Sabor: Afrutado, cítrico, resinoso</li>
+                    <li>Amargor (IBU): Alto (40-100+) </li>
+                    <li>Alcohol (ABV): 5-7%</li>
+                    <li>Ejemplos: New England IPA, Double IPA</li>
+                </ul>
+            </li>
+
+            <li class="card">
+                <h3 id="ale" class="title">Stout</h3>
+                <div class="divisor"></div>
+                <ul>
+                    <li>Color: Negro</li>
+                    <li>Sabor: Tostado, chocolate, café</li>
+                    <li>Amargor (IBU): Moderado (30-60)</li>
+                    <li>Alcohol (ABV): 4-8%</li>
+                    <li>Ejemplos: Dry Stout, Imperial Stout</li>
+                </ul>
+            </li>
+
+            <li class="card">
+                <h3 id="porter" class="title">Porter</h3>
+                <div class="divisor"></div>
+                <ul>
+                    <li>Color: Marrón oscuro</li>
+                    <li>Sabor: Tostado, chocolate, caramelo</li>
+                    <li>Amargor (IBU): Moderado (20-40)</li>
+                    <li>Alcohol (ABV): 5-7%</li>
+                    <li>Ejemplos: Porter, Baltic Porter</li>
+                </ul>
+            </li>
+
+            <li class="card">
+                <h3 id="wheat" class="title">Trigo</h3>
+                <div class="divisor"></div>
+                <ul>
+                    <li>Color: Amarillo pajizo</li>
+                    <li>Sabor: Afrutado, especiado, ácido</li>
+                    <li>Amargor (IBU): Bajo (10-20)</li>
+                    <li>Alcohol (ABV): 4-6%</li>
+                    <li>Ejemplos: Hefeweizen, Belgian Witbier</li>
+                </ul>
+            </li>
+
+            <li class="card">
+                <h3 id="lambic" class="title">Lambic</h3>
+                <div class="divisor"></div>
+                <ul>
+                    <li>Color: Dorado a ámbar</li>
+                    <li>Sabor: Ácido, agridulce, especiado</li>
+                    <li>Amargor (IBU): Bajo (10-20)</li>
+                    <li>Alcohol (ABV): 5-8%</li>
+                    <li>Ejemplos: Kriek, Faro</li>
+                </ul>
+            </li>
+            <li class="card">
+                <h3 id="saison" class="title">Saison</h3>
+                <div class="divisor"></div>
+
+                <ul>
+                    <li>Color: Dorado a ámbar</li>
+                    <li>Sabor: Especiado, terroso, afrutado</li>
+                    <li>Amargor (IBU): Moderado (20-40)</li>
+                    <li>Alcohol (ABV): 5-7%</li>
+                    <li>Ejemplos: Saison, Mosaic</li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
